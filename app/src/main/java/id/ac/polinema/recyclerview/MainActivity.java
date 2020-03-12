@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
 		Intent intent = new Intent(MainActivity.this, ViewTypeActivity.class);
 		startActivity(intent);
 	}
+
+	public void handleExercise(View view) {
+		Intent intent = new Intent(MainActivity.this, ExerciseActivity.class);
+		startActivity(intent);
+	}
 }
