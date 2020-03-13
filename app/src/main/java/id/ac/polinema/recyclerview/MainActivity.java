@@ -40,4 +40,9 @@ public class MainActivity extends AppCompatActivity {
 		Intent intent = new Intent(MainActivity.this, ExerciseActivity.class);
 		startActivity(intent);
 	}
+
+	public void handleFastadapter(View view) {
+		Intent intent = new Intent(MainActivity.this, FastAdapterActivity.class);
+		startActivity(intent);
+	}
 }
